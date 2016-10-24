@@ -139,6 +139,13 @@ Commands
 
 	- **dir** [String]: The directory to open.
 
+**edit_settings**
+	Opens the default and user settings files in a new window. Since Build 3124.
+	
+	- **base_file** [String]: The path to the default setting file.
+	
+	- **default** [String]: Content of the user file if none exists.
+
 **open_file_settings**
 	Opens the syntax-specific user settings file for the current syntax.
 
